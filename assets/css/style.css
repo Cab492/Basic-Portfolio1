@@ -2,13 +2,20 @@
 	box-sizing: border-box;
 }
 
+body {
+	margin: 0 30px;
+}
+
+
+
 .logo {
-	background-color: #4aaaa5;
-    border: 20px solid #fff;
+    background-color: #4aaaa5;
+    /* border: 20px solid #fff; */
     width: 25%;
     padding: 20px;
     color: white;
     display: inline;
+    margin: 0 0 0 20px;
 }
 
 #link3 {
@@ -31,4 +38,99 @@
 	color: #D3D3D3;
 }
 
+.page1 {
+	background-color: #ccc;
+    padding: 20px;
+    margin-top: 19px;
+}
 
+.page2 {
+	background-color: #ccc;
+    padding: 20px;
+    margin-top: 19px;
+}
+
+.page3 {
+	background-color: #ccc;
+    padding: 20px;
+    margin-top: 19px;
+}
+
+.leftSide1 {
+	width: 50%;
+	display: inline-block;
+}
+
+.rightSide1 {
+	float: right;
+}
+
+.leftSide2 {
+	width: 50%;
+	display: inline-block;
+}
+
+.leftSide3 {
+	width: 50%;
+	display: inline-block;
+}
+
+#hangmanText {
+    background-color: #4aaaa5;
+    /* border: 20px solid #fff; */
+    width: 25%;
+    padding: 20px;
+    color: white;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#rpgGameText {
+    background-color: #4aaaa5;
+    /* border: 20px solid #fff; */
+    width: 25%;
+    padding: 20px;
+    color: white;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#triviaGameText {
+    background-color: #4aaaa5;
+    /* border: 20px solid #fff; */
+    width: 25%;
+    padding: 20px;
+    color: white;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#rutgersInfoWidgetText {
+    background-color: #4aaaa5;
+    /* border: 20px solid #fff; */
+    width: 25%;
+    padding: 20px;
+    color: white;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#rockPaperScissorsText {
+    background-color: #4aaaa5;
+    /* border: 20px solid #fff; */
+    width: 25%;
+    padding: 20px;
+    color: white;
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+#hangmanImage {
+	width: 250px;
+	height: 250px
+}
+
+.wrapper {
+margin: 0 auto;
+width: 960px;
+}
