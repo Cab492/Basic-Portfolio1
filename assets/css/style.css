@@ -1,13 +1,9 @@
 * {
 	box-sizing: border-box;
 }
-
-body {
-	margin: 0 30px;
+header {
+	border-bottom: 1px solid color: #ccc;
 }
-
-
-
 .logo {
     background-color: #4aaaa5;
     /* border: 20px solid #fff; */
@@ -39,19 +35,17 @@ body {
 }
 
 .page1 {
-	background-color: #ccc;
+	width: 960px;
     padding: 20px;
     margin-top: 19px;
 }
 
 .page2 {
-	background-color: #ccc;
     padding: 20px;
     margin-top: 19px;
 }
 
 .page3 {
-	background-color: #ccc;
     padding: 20px;
     margin-top: 19px;
 }
@@ -59,60 +53,94 @@ body {
 .leftSide1 {
 	width: 50%;
 	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 20px;
 }
 
 .rightSide1 {
 	float: right;
+	width: 33%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 20px;
 }
 
 .leftSide2 {
 	width: 50%;
 	display: inline-block;
+	border: 1px solid #ccc;
+	padding: 20px;width: 50%;
+	display: inline-block;
 }
 
 .leftSide3 {
-	width: 50%;
-	display: inline-block;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 650px;
+    display: inline-block;
 }
 
 #hangmanText {
     background-color: #4aaaa5;
     /* border: 20px solid #fff; */
-    width: 25%;
-    padding: 20px;
+    width: 250px;
+    padding: 20px 86px;
     color: white;
     display: inline;
     margin: 0 0 0 20px;
+    position: relative;
+    left: -274px;
+    top: -33px;
 }
 
 #rpgGameText {
     background-color: #4aaaa5;
     /* border: 20px solid #fff; */
-    width: 25%;
-    padding: 20px;
+    /* width: 25%; */
     color: white;
     display: inline;
     margin: 0 0 0 20px;
+    position: relative;
+    width: 250px;
+    padding: 20px 81px;
+    left: 80px;
+    top: -52px;
+    font-size: 18px;
 }
 
 #triviaGameText {
     background-color: #4aaaa5;
     /* border: 20px solid #fff; */
-    width: 25%;
-    padding: 20px;
+    /* width: 25%; */
     color: white;
-    display: inline;
+    /* display: inline; */
     margin: 0 0 0 20px;
+    position: relative;
+    width: 250px;
+    padding: 7px 77px;
+    left: 80px;
+    top: -75px;
+    font-size: 18px;
+    left: -20px;
+    float: left;
+    text-align: center;
 }
 
 #rutgersInfoWidgetText {
     background-color: #4aaaa5;
     /* border: 20px solid #fff; */
-    width: 25%;
-    padding: 20px;
+    /* width: 25%; */
     color: white;
-    display: inline;
+    /* display: inline; */
     margin: 0 0 0 20px;
+    float: left;
+    padding: 20px 46px;
+    font-size: 18px;
+    position: relative;
+    left: 330px;
+    top: -275px;
 }
 
 #rockPaperScissorsText {
@@ -126,11 +154,80 @@ body {
 }
 
 #hangmanImage {
-	width: 250px;
-	height: 250px
+    width: 250px;
+    height: 200px;
 }
 
-.wrapper {
-margin: 0 auto;
-width: 960px;
+#rpgGameImage {
+    width: 250px;
+    height: 200px;
+    float: left;
+    position: relative;
+    left: 350px;
+    top: -205px;
+}
+
+#triviaGameImage {
+	    height: 200px;
+    width: 250px;
+    /* float: left; */
+    position: relative;
+    left: -250px;
+}
+
+#rutgersInfoWidgetImage {
+	height: 200px;
+    width: 250px;
+    float: left;
+    position: relative;
+    left: 80px;
+    top: -205px;
+}
+
+#aboutMeImage {
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding: 20px;
+}
+
+#aboutMeText {
+	margin-left: 10px;
+
+}
+
+#aboutMe {
+	color: #4aaaa5;
+	border-bottom: 1px solid #ccc;
+	margin: 10px;
+}
+
+#connectMe {
+	color: #4aaaa5;
+	border-bottom: 1px solid #ccc;
+	margin: 10px;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+body {
+	width:960px;
+	margin: 10px auto;
+}
+
+#gitHub {
+	width: 50px;
+	height: 50px;
+	align-content: center;
+}
+
+#linkedIn {
+	width: 50px;
+	height: 50px;
+}
+
+#stackOverflow {
+	width:50px;
+	height: 50px;
 }
