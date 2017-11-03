@@ -51,35 +51,54 @@ header {
 }
 
 .leftSide1 {
-	width: 50%;
-	display: inline-block;
 	border: 1px solid #ccc;
-	padding: 20px;
+    padding: 20px;
+    width: 610px;
+    display: inline-block;
+    margin: 20px auto;
 }
 
 .rightSide1 {
-	float: right;
-	width: 33%;
-	display: inline-block;
-	border: 1px solid #ccc;
-	padding: 20px;
-}
-
-.leftSide2 {
-	width: 50%;
-	display: inline-block;
-	border: 1px solid #ccc;
-	padding: 20px;width: 50%;
-	display: inline-block;
-}
-
-.leftSide3 {
-    width: 50%;
+    float: right;
+    width: 270px;
     display: inline-block;
     border: 1px solid #ccc;
     padding: 20px;
-    width: 650px;
+    margin: 20px auto;
+}
+
+.leftSide2 {
+	border: 1px solid #ccc;
+    padding: 20px;
+    width: 610px;
     display: inline-block;
+    margin: 20px auto;
+}
+
+.rightSide2 {
+    float: right;
+    width: 270px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.leftSide3 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 610px;
+    display: inline-block;
+    margin: 20px auto;
+}
+
+.rightSide3 {
+    float: right;
+    width: 270px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
 }
 
 #hangmanText {
@@ -105,7 +124,7 @@ header {
     position: relative;
     width: 250px;
     padding: 20px 81px;
-    left: 80px;
+    left: 40px;
     top: -52px;
     font-size: 18px;
 }
@@ -139,18 +158,23 @@ header {
     padding: 20px 46px;
     font-size: 18px;
     position: relative;
-    left: 330px;
+    left: 290px;
     top: -275px;
 }
 
 #rockPaperScissorsText {
     background-color: #4aaaa5;
     /* border: 20px solid #fff; */
-    width: 25%;
-    padding: 20px;
+    /* width: 25%; */
+    padding: 20px 51px;
     color: white;
-    display: inline;
+    /* display: inline; */
     margin: 0 0 0 20px;
+    float: left;
+    font-size: 18px;
+    position: relative;
+    top: -250px;
+    left: -20px;
 }
 
 #hangmanImage {
@@ -163,7 +187,7 @@ header {
     height: 200px;
     float: left;
     position: relative;
-    left: 350px;
+    left: 310px;
     top: -205px;
 }
 
@@ -180,8 +204,17 @@ header {
     width: 250px;
     float: left;
     position: relative;
-    left: 80px;
+    left: 40px;
     top: -205px;
+}
+
+#rockPaperScissorsImage {
+	    height: 200px;
+    width: 250px;
+    float: left;
+    position: relative;
+    left: -270px;
+    top: -175px;
 }
 
 #aboutMeImage {
@@ -214,20 +247,35 @@ header {
 body {
 	width:960px;
 	margin: 10px auto;
+	background-image: url('../../images/dust_scratches.png');
 }
 
 #gitHub {
-	width: 50px;
-	height: 50px;
-	align-content: center;
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    position: relative;
+    left: 8px;
 }
 
 #linkedIn {
-	width: 50px;
-	height: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 35px;
 }
 
 #stackOverflow {
-	width:50px;
-	height: 50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 60px;
+}
+
+footer {
+    background-color: grey;
+    padding: 20px;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    width: 100%;
 }
